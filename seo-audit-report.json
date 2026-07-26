@@ -1,0 +1,279 @@
+{
+  "pages": [
+    {
+      "file": "about.html",
+      "title": "About North London Roofing Ltd | Local Roofing Team",
+      "description": "Learn about North London Roofing Ltd, our experienced local roofing team, workmanship standards and service across North London.",
+      "h1": "Professional standards. Local understanding.",
+      "canonical": "https://opretera.github.io/north-london-roofing/about.html"
+    },
+    {
+      "file": "barnet-roofing.html",
+      "title": "Roofers in Barnet | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Barnet providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Barnet",
+      "canonical": "https://opretera.github.io/north-london-roofing/barnet-roofing.html"
+    },
+    {
+      "file": "camden-roofing.html",
+      "title": "Roofers in Camden | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Camden providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Camden",
+      "canonical": "https://opretera.github.io/north-london-roofing/camden-roofing.html"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact North London Roofing Ltd | Free Roofing Quote",
+      "description": "Contact North London Roofing Ltd for a free roofing quote, roof inspection or urgent roofing enquiry across North London.",
+      "h1": "Let’s discuss your roof.",
+      "canonical": "https://opretera.github.io/north-london-roofing/contact.html"
+    },
+    {
+      "file": "cookie-policy.html",
+      "title": "Cookie Policy | North London Roofing Ltd",
+      "description": "Read the North London Roofing Ltd cookie policy and learn how cookies may be used on this website.",
+      "h1": "Cookie Policy",
+      "canonical": "https://opretera.github.io/north-london-roofing/cookie-policy.html"
+    },
+    {
+      "file": "emergency-roofing.html",
+      "title": "Emergency Roofer North London | Urgent Roof Leak Help",
+      "description": "Urgent roofing support across North London for roof leaks, storm damage and emergency weatherproofing enquiries.",
+      "h1": "Urgent roofing help when the weather gets in.",
+      "canonical": "https://opretera.github.io/north-london-roofing/emergency-roofing.html"
+    },
+    {
+      "file": "enfield-roofing.html",
+      "title": "Roofers in Enfield | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Enfield providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Enfield",
+      "canonical": "https://opretera.github.io/north-london-roofing/enfield-roofing.html"
+    },
+    {
+      "file": "finchley-roofing.html",
+      "title": "Roofers in Finchley | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Finchley providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Finchley",
+      "canonical": "https://opretera.github.io/north-london-roofing/finchley-roofing.html"
+    },
+    {
+      "file": "flat-roofing.html",
+      "title": "Flat Roofing North London | Repairs & Replacement",
+      "description": "Flat roof repairs and replacement across North London, including durable systems for homes, extensions and commercial properties.",
+      "h1": "Modern flat roofing with clean, durable detailing.",
+      "canonical": "https://opretera.github.io/north-london-roofing/flat-roofing.html"
+    },
+    {
+      "file": "gutter-repairs.html",
+      "title": "Gutter Repairs North London | Fascias, Soffits & Downpipes",
+      "description": "Gutter repairs, replacements, fascia, soffit and downpipe work across North London.",
+      "h1": "Keep rainwater moving safely away from your property.",
+      "canonical": "https://opretera.github.io/north-london-roofing/gutter-repairs.html"
+    },
+    {
+      "file": "hendon-roofing.html",
+      "title": "Roofers in Hendon | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Hendon providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Hendon",
+      "canonical": "https://opretera.github.io/north-london-roofing/hendon-roofing.html"
+    },
+    {
+      "file": "highgate-roofing.html",
+      "title": "Roofers in Highgate | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Highgate providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Highgate",
+      "canonical": "https://opretera.github.io/north-london-roofing/highgate-roofing.html"
+    },
+    {
+      "file": "index.html",
+      "title": "Roofer North London | Roof Repairs & Roofing Services",
+      "description": "North London Roofing Ltd provides roof repairs, new roofs, flat roofing, gutter repairs and emergency roofing support across North London.",
+      "h1": "Trusted Roofers in North London",
+      "canonical": "https://opretera.github.io/north-london-roofing/"
+    },
+    {
+      "file": "islington-roofing.html",
+      "title": "Roofers in Islington | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Islington providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Islington",
+      "canonical": "https://opretera.github.io/north-london-roofing/islington-roofing.html"
+    },
+    {
+      "file": "muswell-hill-roofing.html",
+      "title": "Roofers in Muswell Hill | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Muswell Hill providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Muswell Hill",
+      "canonical": "https://opretera.github.io/north-london-roofing/muswell-hill-roofing.html"
+    },
+    {
+      "file": "new-roof-installation.html",
+      "title": "New Roof Installation North London | Roofing Specialists",
+      "description": "New roof installation across North London for homes, landlords and commercial properties, with clear quotations and professional workmanship.",
+      "h1": "A complete new roof, planned around your property.",
+      "canonical": "https://opretera.github.io/north-london-roofing/new-roof-installation.html"
+    },
+    {
+      "file": "privacy-policy.html",
+      "title": "Privacy Policy | North London Roofing Ltd",
+      "description": "Read the North London Roofing Ltd privacy policy and learn how website enquiries and personal information are handled.",
+      "h1": "Privacy Policy",
+      "canonical": "https://opretera.github.io/north-london-roofing/privacy-policy.html"
+    },
+    {
+      "file": "roof-repairs.html",
+      "title": "Roof Repairs North London | Leaks, Tiles & Storm Damage",
+      "description": "Professional roof repairs across North London for leaks, broken tiles, flashing problems and storm damage.",
+      "h1": "Roof repairs that solve the source of the problem.",
+      "canonical": "https://opretera.github.io/north-london-roofing/roof-repairs.html"
+    },
+    {
+      "file": "wood-green-roofing.html",
+      "title": "Roofers in Wood Green | Roof Repairs & Roofing Services",
+      "description": "Local roofers in Wood Green providing roof repairs, flat roofing, new roof installation, gutter work and urgent roofing support.",
+      "h1": "Trusted Roofers in Wood Green",
+      "canonical": "https://opretera.github.io/north-london-roofing/wood-green-roofing.html"
+    }
+  ],
+  "duplicate_canonicals": {},
+  "github_references_removed": [],
+  "schema_blocks": 0,
+  "duplicate_titles": {},
+  "duplicate_descriptions": {},
+  "duplicate_h1s": {},
+  "remaining_unwanted_refs": {},
+  "validation": [
+    {
+      "file": "about.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "barnet-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "camden-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "cookie-policy.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "emergency-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "enfield-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "finchley-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "flat-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "gutter-repairs.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "hendon-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "highgate-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "islington-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "muswell-hill-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "new-roof-installation.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "privacy-policy.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "roof-repairs.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    },
+    {
+      "file": "wood-green-roofing.html",
+      "canonical_count": 1,
+      "schema_blocks": 1,
+      "schema_valid_json": true,
+      "errors": []
+    }
+  ]
+}

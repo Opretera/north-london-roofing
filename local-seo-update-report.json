@@ -1,0 +1,22 @@
+{
+  "borough_pages_updated": {
+    "barnet-roofing.html": true,
+    "finchley-roofing.html": true,
+    "enfield-roofing.html": true,
+    "camden-roofing.html": true,
+    "islington-roofing.html": true,
+    "muswell-hill-roofing.html": true,
+    "highgate-roofing.html": true,
+    "hendon-roofing.html": true,
+    "wood-green-roofing.html": true
+  },
+  "faq_questions_present": {
+    "How much should roof repairs cost?": true,
+    "How can you tell a dodgy roofer?": true,
+    "What is the most common roof repair?": true,
+    "How much should a roofer charge per hour?": true
+  },
+  "footer_on_all_pages": false,
+  "homepage_faq_schema": true,
+  "schema_json_valid": true
+}

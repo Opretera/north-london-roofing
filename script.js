@@ -293,3 +293,49 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 })();
+
+// Interactive before-and-after comparison sliders
+document.querySelectorAll('[data-comparison]').forEach((comparison)=>{const range=comparison.querySelector('.comparison-range');const before=comparison.querySelector('.comparison-before');const handle=comparison.querySelector('.comparison-handle');const update=()=>{const value=Number(range.value);before.style.width=value+'%';handle.style.left=value+'%';comparison.style.setProperty('--comparison-full-width',comparison.clientWidth+'px')};range.addEventListener('input',update);window.addEventListener('resize',update,{passive:true});update()});
+
+// Live animated estimator updates
+(()=>{const form=document.querySelector('#roof-estimator');if(!form)return;const price=document.querySelector('#estimate-price'),summary=document.querySelector('#estimate-summary'),breakdown=document.querySelector('#estimate-breakdown'),workers=document.querySelector('#estimate-workers'),hours=document.querySelector('#estimate-hours'),wo=document.querySelector('#estimate-workers-value'),ho=document.querySelector('#estimate-hours-value');const names={repair:'roof repair',flat:'flat roofing work',replacement:'roof replacement',gutter:'gutter repair',emergency:'emergency roof repair'};const ranges={repair:{small:[180,450],medium:[350,900],large:[650,1600]},flat:{small:[900,1800],medium:[1800,4200],large:[3500,8500]},replacement:{small:[4500,7500],medium:[7000,12500],large:[11000,22000]},gutter:{small:[120,300],medium:[250,650],large:[500,1300]},emergency:{small:[220,550],medium:[400,1100],large:[750,1900]}};const cm={minor:.85,moderate:1,major:1.45},um={standard:1,urgent:1.25};let dl=800,dh=1300,frame;const fmt=v=>'£'+Math.round(v).toLocaleString('en-GB');const animate=(tl,th)=>{if(frame)cancelAnimationFrame(frame);const sl=dl,sh=dh,st=performance.now(),dur=520;price.classList.add('is-changing');const step=now=>{const p=Math.min((now-st)/dur,1),e=1-Math.pow(1-p,4);dl=sl+(tl-sl)*e;dh=sh+(th-sh)*e;price.textContent=fmt(dl)+'–'+fmt(dh);if(p<1)frame=requestAnimationFrame(step);else{dl=tl;dh=th;price.textContent=fmt(tl)+'–'+fmt(th);price.classList.remove('is-changing')}};frame=requestAnimationFrame(step)};const calc=()=>{const s=document.querySelector('#estimate-service').value,z=document.querySelector('#estimate-size').value,c=document.querySelector('#estimate-condition').value,u=document.querySelector('#estimate-urgency').value,w=Math.max(1,+workers.value),h=Math.max(1,+hours.value);wo.textContent=w+' roofer'+(w>1?'s':'');ho.textContent=h+' hour'+(h>1?'s':'');const [bl,bh]=ranges[s][z],m=cm[c]*um[u],em=s==='emergency'||u==='urgent',hl=em?70:40,hh=em?110:70,ll=w*h*hl,lh=w*h*hh,low=Math.round(Math.max(bl*m,ll)/50)*50,high=Math.round(Math.max(bh*m,lh)/50)*50;animate(low,high);summary.textContent='Typical guide range for '+z+' '+names[s]+' with '+c+' conditions.';breakdown.innerHTML='Labour guide: '+w+' roofer'+(w>1?'s':'')+' × '+h+' hour'+(h>1?'s':'')+'<br>'+(em?'Emergency':'Standard')+' labour rate: approximately £'+hl+'–£'+hh+' per roofer, per hour'};form.querySelectorAll('select,input').forEach(el=>{el.addEventListener('input',calc);el.addEventListener('change',calc)});form.addEventListener('submit',e=>{e.preventDefault();calc()});calc()})();
+
+
+// Smooth internal page transitions
+(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion) return;
+
+  document.body.classList.add('page-is-entering');
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => document.body.classList.remove('page-is-entering'));
+  });
+
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (
+      !href ||
+      href.startsWith('#') ||
+      href.startsWith('mailto:') ||
+      href.startsWith('tel:') ||
+      link.target === '_blank' ||
+      link.hasAttribute('download') ||
+      event.ctrlKey || event.metaKey || event.shiftKey || event.altKey
+    ) return;
+
+    const targetUrl = new URL(link.href, window.location.href);
+    const currentUrl = new URL(window.location.href);
+
+    if (targetUrl.origin !== currentUrl.origin) return;
+    if (targetUrl.pathname === currentUrl.pathname && targetUrl.hash) return;
+
+    event.preventDefault();
+    document.body.classList.add('page-is-leaving');
+    window.setTimeout(() => {
+      window.location.href = targetUrl.href;
+    }, 280);
+  });
+})();
